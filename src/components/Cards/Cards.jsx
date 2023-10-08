@@ -14,7 +14,7 @@ const Cards = () => {
                 <div className={`row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4  ${styles.cardsContent}`}>
                     {Starters.map((items) => {
                         return (
-                            <div className="col">
+                            <div className="col" key={items.id}>
                                 <div className={styles.card}>
                                     <div className={styles.cardAvatar}>
                                         <img src={items.image} alt="" />
@@ -37,7 +37,7 @@ const Cards = () => {
                 <div className={`row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4  ${styles.cardsContent}`}>
                     {Local.map((items) => {
                         return (
-                            <div className="col">
+                            <div className="col" key={items.id}>
                                 <div className={styles.card}>
                                     <div className={styles.cardAvatar}>
                                         <img src={items.image} alt="" />
