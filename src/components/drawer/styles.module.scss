@@ -1,0 +1,89 @@
+.card {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px 10px 12px;
+    box-shadow: inset 0 0 5px #e2e1e1;
+    .cardAvatar {
+        height: 200px;
+        border-radius: 20px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 14px;
+        }
+    }
+    .cardsTxts {
+        padding: 10px;
+        h3 {
+            font-size: 16px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 5px;
+            color: rgb(33, 37, 41);
+            font-family: "Poppins";
+        }
+        p {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            font-weight: 12px;
+            text-overflow: ellipsis;
+            color: rgb(0, 0, 0);
+            margin-bottom: 10px;
+            text-align: center;
+            &:nth-child(4) {
+                color: rgb(228, 32, 38);
+                font-size: 14px;
+                font-weight: bold;
+                font-family: "Poppins";
+                margin-top: 16px;
+            }
+        }
+        .break {
+            display: block;
+            width: 100%;
+            margin-top: 4px;
+            height: 1px;
+            background-color: rgb(238, 240, 242);
+        }
+        button {
+            padding: 0 16px;
+            height: 42px;
+            font-weight: bold;
+            background-color: rgb(212, 0, 0);
+            color: rgb(255, 255, 255);
+            border-radius: 25px;
+            font-family: "Poppins";
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+:global {
+    .customCounter {
+        div {
+            div {
+                border: 1px solid #dadada;
+                padding: 0 15px;
+                border-radius: 6px;
+                cursor: pointer;
+                user-select: none;
+            }
+        }
+        button {
+            padding: 0 16px;
+            height: 42px;
+            font-weight: bold;
+            background-color: rgb(212, 0, 0);
+            color: rgb(255, 255, 255);
+            border-radius: 25px;
+            font-family: "Poppins";
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

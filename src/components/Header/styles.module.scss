@@ -1,0 +1,35 @@
+.logo {
+    color: #24282b;
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 32px;
+    font-family: "Poppins";
+    background-color: rgb(255, 203, 4);
+    box-shadow: rgba(0, 0, 0, 0.133) 0px 2px 8px 0px;
+    img {
+        width: 80px;
+        height: 80px;
+        margin-left: 10px;
+    }
+    svg {
+        width: 50px;
+        height: 50px;
+    }
+    .cartCounterMain {
+        position: relative;
+        .cartCounter {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            font-size: 16px;
+            color: #fff;
+            top: -8px;
+            left: 12px;
+            background-color: red;
+        }
+    }
+}
